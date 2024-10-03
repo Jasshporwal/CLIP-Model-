@@ -13,8 +13,8 @@ The Colpali application is a document search and upload platform built using Fas
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Jasshporwal/WEBSCRAPER_Diffbot.git
-   cd WEBSCRAPER_Diffbot
+   git clone https://github.com/Jasshporwal/COLPALI.git
+   cd COLPALI
    ```
 
 2. Create a virtual environment and activate it:
