@@ -1,4 +1,3 @@
-# app/main.py
 from fastapi import FastAPI
 from fastapi.encoders import jsonable_encoder
 from api import documents, search
