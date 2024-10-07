@@ -1,4 +1,3 @@
-
 from fastapi import APIRouter, File, UploadFile, Form, Depends
 from typing import List
 from config import load_models, initialize_pinecone
@@ -16,7 +15,7 @@ async def upload_documents(
     index: callable = Depends(initialize_pinecone),
 ):
     print(f"Received {len(files)} files and {len(doc_ids)} document IDs")
-    doc_ids = [x.strip() for x in doc_ids.split(',')]
+    doc_ids = [x.strip() for x in doc_ids.split(",")]
     if len(files) != len(doc_ids):
         raise ValueError("Number of files must match number of document IDs")
 
