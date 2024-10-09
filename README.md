@@ -1,7 +1,7 @@
 
-# Colpali API
+# CLIP API
 
-The Colpali application is a document search and upload platform built using FastAPI, Pydantic, and Pinecone. It allows users to upload documents, process them, and search for similar documents using a query.
+The CLIP application is a document search and upload platform built using FastAPI, Pydantic, and Pinecone. It allows users to upload documents, process them, and search for similar documents using a query.
 
 ## Features
 
@@ -13,8 +13,8 @@ The Colpali application is a document search and upload platform built using Fas
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Jasshporwal/COLPALI.git
-   cd COLPALI
+   git clone https://github.com/Jasshporwal/CLIP-Model-.git
+   cd CLIP-MODEL-
    ```
 
 2. Create a virtual environment and activate it:
